@@ -3,26 +3,83 @@ title: "Looking ahead"
 author: "Anne Bakker"
 date: "2023-11-20"
 output: html_document
+editor_options: 
+  markdown: 
+    wrap: sentence
 ---
 
-## Stage
+## Vrije ruimte
 
 ## Interessante onderwerpen
-Neurogenomica:
-- Integratie van genomics en neurobiologie om de genetische basis van complex gedrag bij dieren te ontrafelen.
-- Analyse van genexpressiegegevens in de hersenen van dieren in relatie tot specifiek gedrag.
 
---> Dmv; AnimalAI:
+**Neurogenomica:**
 
-Doel: AnimalAI is ontworpen voor neuro-ethologisch onderzoek, wat betekent dat het zich richt op de studie van natuurlijk gedrag van dieren en de onderliggende neurale mechanismen.
-Simulatie van Gedrag: Het pakket biedt tools om het gedrag van dieren te simuleren in gecontroleerde virtuele omgevingen. Dit stelt onderzoekers in staat om scenario's te creëren en te bestuderen zonder de complexiteit van het werken met echte dieren.
-Neurale Netwerkintegratie: AnimalAI integreert neurale netwerken om realistisch dierlijk gedrag te modelleren. Deze netwerken kunnen worden aangepast om bepaalde gedragspatronen na te bootsen of om specifieke neurale mechanismen te bestuderen.
-Aanpasbaarheid: Het pakket is waarschijnlijk ontworpen met aanpasbaarheid in gedachten, zodat onderzoekers het kunnen configureren voor specifieke diersoorten, gedragskenmerken of neuro-ethologische vragen.
-Onderzoeksinstrument: AnimalAI dient als een instrument voor het uitvoeren van experimenten en het testen van hypotheses in het domein van neuro-ethologie zonder de ethische en praktische uitdagingen van het werken met echte dieren.
-Neuro-informatica voor gedragsanalyse:
-- Ontwikkeling van geavanceerde informatica-tools voor het analyseren en kwantificeren van gedrag op basis van neurologische gegevens.
-- Toepassing van machine learning voor het herkennen van patronen in de hersenactiviteit van dieren.
+\- Integratie van genomics en neurobiologie om de genetische basis van complex gedrag bij dieren te ontrafelen.
 
-Single-Cell Transcriptomics in Tumorbiologie:
-- Gebruik van single-cell RNA-sequencing om de heterogeniteit van tumorcellen op moleculair niveau te begrijpen.
-- Data science-methoden toepassen om patronen in de expressieprofielen van individuele tumorcellen te identificeren.
+\- Analyse van genexpressiegegevens in de hersenen van dieren in relatie tot specifiek gedrag.
+
+**Neuro-informatica voor gedragsanalyse:**
+
+\- Ontwikkeling van geavanceerde informatica-tools voor het analyseren en kwantificeren van gedrag op basis van neurologische gegevens.
+
+\- Toepassing van machine learning voor het herkennen van patronen in de hersenactiviteit van dieren.
+
+**Single-Cell Transcriptomics in Tumorbiologie:**
+
+\- Gebruik van single-cell RNA-sequencing om de heterogeniteit van tumorcellen op moleculair niveau te begrijpen.
+
+\- Data science-methoden toepassen om patronen in de expressieprofielen van individuele tumorcellen te identificeren.
+
+**Evolutie van Tumorcellen:**
+
+\- Studie naar de evolutionaire dynamiek van tumorcellen en het ontstaan van subclones.
+
+\- Data science voor het modelleren van tumorcel-evolutie op basis van sequentiegegevens.
+
+**Interactie tussen Tumor en Microbioom:**
+
+\- Onderzoek naar de rol van het microbioom in de tumormicro-omgeving.
+
+\- Data science-analyse van microbiële samenstelling en interacties in relatie tot tumorontwikkeling.
+
+## Uiteindelijke keuze voor vrije ruimte
+
+Single cell RNA sequencing om de heterogeniteit van tumorcellen te achterhalen in gen expressie.
+Met data vanuit de database.
+
+## Software & packages
+
+Ik wil het gaan uitvoeren in R.
+Met de packages; Seurat SingleR DESeq2 ggplot2
+
+## Vrije keuze stappenplan
+
+**Dag 1:**
+
+\- 2 uur: Onderzoek doen naar hoe scRNA seq werkt
+
+\- 2 uur: In combinatie met tumor cellen
+
+\- 3 uur: Datasets verzamelen van tumorcellen van bijvoorbeeld bronnen als GEO
+
+\- 1 uur: Datakwaliteit controle (FastQC)
+
+**Dag 2:**
+
+\- 4 uur: Workflow reproduceren en mee oefenen
+
+\- 2 uur: Workflow uitschrijven
+
+\- 2 uur: Data analyse; leer werken met packages als `seurat` en `scater` voor scRNA-seq-analyse.
+
+**Dag 3:**
+
+\- 8 uur: Werk de workflow uit (PCA; clusters ontdekken, gen expressie analyse, grafieken etc.)
+
+**Dag 4:**
+
+\- 2 uur: Overig werk afmaken van de workflow
+
+\- 2 uur: Data interpreteren
+
+\- 2 uur: Discussie punten
