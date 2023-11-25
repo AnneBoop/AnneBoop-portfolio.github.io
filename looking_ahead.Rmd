@@ -47,6 +47,10 @@ editor_options:
 Single cell RNA sequencing om de heterogeniteit van tumorcellen te achterhalen in gen expressie.
 Met data vanuit de database.
 
+### Voorbeeld:
+
+[https://www.cell.com/cell-reports/pdf/S2211-1247(17)31462-6.pdf](https://www.cell.com/cell-reports/pdf/S2211-1247(17)31462-6.pdf){.uri}
+
 ## Software & packages
 
 Ik wil het gaan uitvoeren in R.
