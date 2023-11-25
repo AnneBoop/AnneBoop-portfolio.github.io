@@ -1,0 +1,75 @@
+---
+title: CV
+name: Anne
+surname: Bakker
+position: "Student"
+address: "Eemnes, kolbleistraat 16"
+phone: +31 6 52140180
+email: "annebakker2003@gmail.com"
+github: AnneBoop
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: ""
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some stuff about me
+
+-   I poisoned myself doing research.
+-   I was the first woman to win a Nobel prize
+-   I was the first person and only woman to win a Nobel prize in two different sciences. hzo
+
+
+# Vaardigheden
+-   `R`
+-   `bash`
+-   `SPSS`
+-   `DNA baser`
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Life science; biologie en medisch laboratorium onderzoek", "2020-heden", "Hogeschool Utrecht", "Utrecht",
+  "Profiel; Natuur en Gezondheid", "2020", "Laar en berg", "Laren",
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Werkervaring
+
+```{r}
+tribble(
+  ~Degree, ~Year, ~Desc,
+ "Woonondersteuner, Stichtse hof", 'april 20203 - heden', "Bij Vivium stichtse hof werk ik als een woonondersteuner, dit houdt in dat ik de bewoners help. Zo moest ik bedden verschonen, deed ik afwasjes, hulp bij de maaltijd en heb ik een signaalfunctie",
+  "Order picker, Hema DC", '2022 - heden', "Bij Hema DC heb ik met het ‘pick by light’ systeem gewerkt en heb ik orders verzendklaar gemaakt", 
+ "Pré-analist – Unilabs Saltro", 'Mrt. – Mei 2022', "Bij Unilabs heb ik als pré-analist gewerkt tijdens de corona tijd. Hierbij was ik verantwoordelijk voor het verwerken van de patiëntgegevens in de systemen. Het uitpakken van het patiëntmateriaal en het gereed te maken voor analyse", 
+ "Callcenter medewerker – GGD Teleperformance", 'Dec. 2021 – Mrt. 2022', "Bij GGD teleperformance heb ik als callcenter medewerker gewerkt tijden de corona tijd. Ik heb hierbij verschillende trainingen doorlopen om de mensen telefonisch goed te woord te staan bij het maken van een test of vaccinatie afspraak", 
+ "Huishoudelijk hulp – Amaris Thuiszorg", 'Mrt. 2020 – Dec. 2021', "Bij Amaris thuiszorg was ik huishoudelijk hulp. Dit hield in dat ik bij mensen thuis kwam en hielp met het schoonhouden en opruimen van het huis. En gaf ik verdere ondersteunig om de ouderen zo lang mogelijk in hun eigen leefomgeving te laten wonen, doormiddel van een praatje maken en een signaalfunctie te vervullen", 
+ "Woonondersteuner – Vivium Torenhof", 'Mrt. – Dec. 2019', "Bij Vivium torenhof werkte ik als een woonondersteuner, dit hield in dat ik de bewoners hielp. Zo moest ik bedden verschonen, deed ik afwasjes, hulp bij de maaltijd en had ik een signaalfunctie", 
+ "Vulploegmedewerker – Kruidvat", 'Jan. – Mei 2019', "Bij de kruidvat was ik een vulploegmedewerker en zorgde ik ervoor dat alles netjes werd bijgevuld", 
+ "Afwashulp – Poffertjeskraam Laren", 'Mrt. – Sept. 2018/19/20', ""
+) %>% 
+  detailed_entries(
+    Degree,
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
