@@ -19,9 +19,11 @@ library(vitae)
 
 # Profiel
 
+Ik ben een derdejaars student life science met een minor in data science. Mijn specialisatie in zoölogie voegt een boeiend perspectief toe aan mijn benadering van data science. Ik hoop in een werkveld te komen waar ik mijn eerste stappen kan zetten als data analist en ervaring op te doen in dit vakgebied.
 
 
 # Vaardigheden
+
 -   `R`
 -   `bash`
 -   `SPSS`
@@ -44,6 +46,7 @@ tribble(
   detailed_entries(Degree, Year, Institution, Where)
 ```
 
+
 # Werkervaring
 
 ```{r}
@@ -65,7 +68,9 @@ tribble(
   )
 ```
 
+
 # Projecten
+
 ```{r}
 library(tibble)
 tribble(
@@ -78,14 +83,18 @@ Tijdens mijn onderzoeksproject heb ik me verdiept in de statistische analyse van
   detailed_entries(Project, Year, Language, Desc)
 
 ```
+
 # Competenties
+
 -   Organisatorisch sterk
 -   Teamspeler
 -   Zelfstandig
 -   Creatief
 -   Sociaal
 
+
 # Talen
+
 -   Nederlands
     +   Mondeling:    Uitstekend
     +   Schriftelijk: Uitstekend 
