@@ -29,19 +29,6 @@ library(vitae)
 -   `Git`
 
 
-# Projecten
-```{r}
-library(tibble)
-tribble(
-  ~ Project, ~ Year, ~ Language, ~ Desc,
-  "RNA sequencing", "2023", "R", "Tijdens mijn betrokkenheid bij een RNA-sequencing project heb ik veel vaardigheden opgedaan. Mijn taken omvatten het uitvoeren van kwaliteitscontroles op sequentiedata met FastQC en het toepassen van de Rsubread-package voor effectieve sequentieanalyse, inclusief het in kaart brengen van sequenties naar een referentiegenoom. Ik heb de data geanalyseerd met behulp van de DESeq2-package, waarmee ik een Differential Gene Expression (DGE) analyse heb uitgevoerd. Een belangrijk aspect van mijn bijdrage was het gebruik van Principal Components Analysis (PCA) om variabiliteit tussen monsters te begrijpen en visualiseren. Voor de visualisatie van resultaten heb ik verschillende geavanceerde visualisatietechnieken toegepast, waaronder count plots, MA plots, heat maps en volcano plots. Daarnaast heb ik mijn analytische vaardigheden toegepast op het gebied van GO enrichment, waarbij ik genen heb geïdentificeerd die geassocieerd zijn met specifieke biologische processen",
-  "Single cell RNA seqeuncing", "2023", "R", "
-Tijdens mijn onderzoeksproject heb ik me verdiept in de statistische analyse van single cell RNA sequencing van tumorcellen in de hersenen, specifiek glioblastoma, met behulp van de programmeertaal R. Ik heb methoden toegepast om heterogeniteit in genexpressie op het niveau van individuele cellen te ontrafelen, waardoor ik inzicht heb verkregen in de complexe biologie van deze tumoren. Mijn analyse omvatte preprocessing van de data, identificatie van subpopulaties, differentiële expressieanalyse met behulp van het DESeq2-pakket, en visualisatie van de resultaten, waaronder tSNE-plots. Het gebruik van geavanceerde R-pakketten, zoals Seurat, stelde me in staat om diepgaande statistische inzichten te verkrijgen en de heterogeniteit van glioblastoma op een gedetailleerd niveau te onderzoeken",
-"Next Generation Sequencing (NGS) analyse", "2023", "bash", "Binnen het project NGS analyse met bash heb ik verschillende technieken geleerd. Ik heb alignments uitgevoerd op fastq files met behulp van bowtie2. Zo heb ik ook geleerd peak calling uit te voeren met HOMER en bigwig files ingelezen en geinspecteerd met de IGV genome browser. De analyse van de (bed) bestanden en de vergelijking is gedaan door middel van BedTools" 
-) %>%
-  detailed_entries(Project, Year, Language, Desc)
-
-```
 
 # Opleiding
 
@@ -76,6 +63,19 @@ tribble(
   )
 ```
 
+# Projecten
+```{r}
+library(tibble)
+tribble(
+  ~ Project, ~ Year, ~ Language, ~ Desc,
+  "RNA sequencing", "2023", "R", "Tijdens mijn betrokkenheid bij een RNA-sequencing project heb ik veel vaardigheden opgedaan. Mijn taken omvatten het uitvoeren van kwaliteitscontroles op sequentiedata met FastQC en het toepassen van de Rsubread-package voor effectieve sequentieanalyse, inclusief het in kaart brengen van sequenties naar een referentiegenoom. Ik heb de data geanalyseerd met behulp van de DESeq2-package, waarmee ik een Differential Gene Expression (DGE) analyse heb uitgevoerd. Een belangrijk aspect van mijn bijdrage was het gebruik van Principal Components Analysis (PCA) om variabiliteit tussen monsters te begrijpen en visualiseren. Voor de visualisatie van resultaten heb ik verschillende geavanceerde visualisatietechnieken toegepast, waaronder count plots, MA plots, heat maps en volcano plots. Daarnaast heb ik mijn analytische vaardigheden toegepast op het gebied van GO enrichment, waarbij ik genen heb geïdentificeerd die geassocieerd zijn met specifieke biologische processen",
+  "Single cell RNA seqeuncing", "2023", "R", "
+Tijdens mijn onderzoeksproject heb ik me verdiept in de statistische analyse van single cell RNA sequencing van tumorcellen in de hersenen, specifiek glioblastoma, met behulp van de programmeertaal R. Ik heb methoden toegepast om heterogeniteit in genexpressie op het niveau van individuele cellen te ontrafelen, waardoor ik inzicht heb verkregen in de complexe biologie van deze tumoren. Mijn analyse omvatte preprocessing van de data, identificatie van subpopulaties, differentiële expressieanalyse met behulp van het DESeq2-pakket, en visualisatie van de resultaten, waaronder tSNE-plots. Het gebruik van geavanceerde R-pakketten, zoals Seurat, stelde me in staat om diepgaande statistische inzichten te verkrijgen en de heterogeniteit van glioblastoma op een gedetailleerd niveau te onderzoeken",
+"Next Generation Sequencing (NGS) analyse", "2023", "bash", "Binnen het project NGS analyse met bash heb ik verschillende technieken geleerd. Ik heb alignments uitgevoerd op fastq files met behulp van bowtie2. Zo heb ik ook geleerd peak calling uit te voeren met HOMER en bigwig files ingelezen en geinspecteerd met de IGV genome browser. De analyse van de (bed) bestanden en de vergelijking is gedaan door middel van BedTools" 
+) %>%
+  detailed_entries(Project, Year, Language, Desc)
+
+```
 # Competenties
 -   Organisatorisch sterk
 -   Teamspeler
