@@ -37,6 +37,8 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
   "Life science; biologie en medisch laboratorium onderzoek", "2020-heden", "Hogeschool Utrecht", "Utrecht",
+  "Specialisatie; Zoölogie", "2023", "Hogeschool Utrecht", "Utrecht",
+  "Minor; Data science", "2023", "Hogeschool Utrecht", "Utrecht",
   "Profiel; Natuur en Gezondheid", "2020", "Laar en berg", "Laren"
 ) %>%
   detailed_entries(Degree, Year, Institution, Where)
