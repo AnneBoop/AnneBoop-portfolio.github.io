@@ -1,0 +1,15 @@
+---
+title: "C.elegans plate experiment"
+author: "Anne Bakker"
+date: "2023-12-05"
+output: html_document
+---
+
+```{r bestand inladen}
+install.packages("tidyverse")
+library(tidyverse)
+library(readxl)
+C.elegans_data <- read_excel("~/Portofolio/dsfb2_workflows_portfolio/C.elegens/CE.LIQ.FLOW.062_Tidydata.xlsx")
+
+head(C.elegans_data)
+```
