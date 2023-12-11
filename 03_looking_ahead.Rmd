@@ -8,7 +8,7 @@ editor_options:
     wrap: sentence
 ---
 
-## Vrije ruimte
+# Vrije ruimte
 
 ## Interessante onderwerpen
 

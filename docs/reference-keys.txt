@@ -1,4 +1,5 @@
-cv
+cv-in-pdf
+cv-code
 profiel
 opleiding
 werkervaring

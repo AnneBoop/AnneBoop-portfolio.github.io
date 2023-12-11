@@ -12,17 +12,19 @@ aboutme: ""
 output: vitae::moderncv
 ---
 
-```{r setup, include=FALSE}
+```{r opzetten, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 ```
 
-# Profiel
+# CV code
+
+## Profiel
 
 Ik ben een derdejaars student life science met een minor in data science. Mijn specialisatie in zoölogie voegt een boeiend perspectief toe aan mijn benadering van data science. Ik hoop in een werkveld te komen waar ik mijn eerste stappen kan zetten als data analist en ervaring op te doen in dit vakgebied.
 
 
-# Opleiding
+## Opleiding
 
 ```{r}
 library(tibble)
@@ -37,7 +39,7 @@ tribble(
 ```
 
 
-# Werkervaring
+## Werkervaring
 
 ```{r}
 tribble(
@@ -58,7 +60,7 @@ tribble(
   )
 ```
 
-# Vaardigheden
+## Vaardigheden
 
 -   `R`
 -   `bash`
@@ -67,7 +69,7 @@ tribble(
 -   `Git`
 
 
-# Projecten
+## Projecten
 
 ```{r}
 library(tibble)
@@ -82,7 +84,7 @@ Tijdens mijn onderzoeksproject heb ik me verdiept in de statistische analyse van
 
 ```
 
-# Competenties
+## Competenties
 
 -   Organisatorisch sterk
 -   Teamspeler
@@ -91,7 +93,7 @@ Tijdens mijn onderzoeksproject heb ik me verdiept in de statistische analyse van
 -   Sociaal
 
 
-# Talen
+## Talen
 
 -   Nederlands
     +   Mondeling:    Uitstekend

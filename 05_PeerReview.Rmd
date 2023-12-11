@@ -5,11 +5,12 @@ date: "2023-12-10"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
+```{r iets anders, include=FALSE}
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 ```
 
-# Artikel
+# Open peer review
+## Artikel
 
 Het artikel dat ik gekozen heb is "Paroxetine treatment in an animal model of depression improves sperm quality".
 
@@ -18,7 +19,7 @@ Hier te vinden:
 Aghajani, R., Tavalaee, M., Sadeghi, N., Razi, M., Gharagozloo, P., Arbabian, M., Drevet, J. R., & Nasr-Esfahani, M. H. (2022). Paroxetine treatment in an animal model of depression improves sperm quality. PLOS ONE, 17(12), e0271217. https://doi.org/10.1371/journal.pone.0271217
 
 
-# Analyse van 'Repita'-criteria
+## Analyse van 'Repita'-criteria
 
 | Transparency Criteria       | Response type   |
 |-----------------------------|-----------------|
@@ -31,13 +32,13 @@ Aghajani, R., Tavalaee, M., Sadeghi, N., Razi, M., Gharagozloo, P., Arbabian, M.
 | Funding statement           |       YES       |
 | Code availability           |       NO        |
 
-# Verklaring
+## Verklaring
 Over het algemeen heeft de studie een goede score op de transparantie criteria. Het doel van de study is goed aangegeven in de introductie. Er is een data beschikbaarheid kopje te vinden onderaan het artikel. Met daarin een link naar de data locatie, die je brengt naar een excel sheet. Waar de studie heeft plaatsgevonden staat aangegeven en ook de auteur review. Er is kort een ethische verklaring gedaan in de methode. Ook is er aan gegeven dat er geen sprake is van financiering onderaan het artikel. Slechts de code beschikbaarheid mist. Er is in het artikel wel uitgelegd hoe ze de statistische analyse hebben uitgevoerd maar niet de exacte code is gegeven.
 
-# Algemene doelstelling 
+## Algemene doelstelling 
 De algemene doelstelling van deze studie is om het effect van het antidepressivum paroxetine, een selectieve serotonineheropnameremmer (SSRI), op spermatogenese en spermatozoa-functie te onderzoeken. De studie maakt gebruik van een diermodel waarin depressie wordt geïnduceerd door een gedwongen zwemtest (FST). Daarnaast wordt gekeken naar de belangrijkste componenten van de one-carbon cycle (1CC), zoals foliumzuur, homocysteïne, methionine, serine, glycine en vitamine B12, in deze context.
 
-# Methode
+## Methode
 
 **Studieopzet**
 
@@ -76,7 +77,7 @@ Bloedplasma werd opgeslagen voor evaluatie van FSH, LH en componenten van de een
 Sperma werden verzameld en beoordeeld voor concentratie, motiliteit, morfologie en functionele tests zoals membranale lipidenperoxidatie, nucleaire protaminatie, nucleaire histoninhoud en DNA-integriteit.
 
 
-# Resultaten
+## Resultaten
 
 **Gewichts- en Morfometrische Parameters**
 
@@ -107,7 +108,7 @@ Sperma werden verzameld en beoordeeld voor concentratie, motiliteit, morfologie 
 - Glycineniveau significant lager in paroxetine- en depressie plus paroxetinegroepen.
 - Vitamine B12-niveau significant lager in de paroxetine- en depressie plus paroxetinegroepen vergeleken met de andere groepen (p<0.05).
 
-# Data
+## Data
 Data is gegeven in een excel bestand hiervan een foto:
 
 ```{r, echo=FALSE}
