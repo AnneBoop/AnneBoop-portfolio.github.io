@@ -3,9 +3,9 @@ title: CV
 name: Anne
 surname: Bakker
 position: "Life science student"
-address: "Eemnes, kolbleistraat 16"
-phone: +31 6 52140180
-email: "annebakker2003@gmail.com"
+address: "-"
+phone:
+email: "-"
 github: AnneBoop
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: ""
